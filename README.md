@@ -18,3 +18,6 @@ Sort the tasks to move the striked out tasks to bottom
 
 Clear button removes all the striked out tasks from the list.
 ![Screenshot 2022-11-20 at 12 02 30 PM](https://user-images.githubusercontent.com/26229336/202889234-3224e1e7-b4e8-4a6f-97db-fcb6cc3d6079.png)
+
+
+This was built in May 2020, when I was learning HTML Javascript. Uploaded from archives.
