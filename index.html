@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDoList</title>
+
+		<!-- CSS only -->
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script async defer src="script.js"></script>
+		<script
+			async
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.js"
+		></script>
+		<!----BOOtstap---->
+		<!-- CSS only -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div>
+			<h2 class="display-3 text-center">
+				To Do <small class="display-3 text-muted">List</small>
+			</h2>
+			<!-- INPUT BOX -->
+			<div class="row m-4">
+				<div class="col-md-8">
+					<div class="form-group">
+						<label for="newTask">Enter New Task</label>
+						<input
+							autocomplete="false"
+							type="text"
+							class="form-control"
+							id="newTask"
+							aria-describedby="newTaskHelp"
+							placeholder="Your Task"
+						/>
+						<small id="newTaskHelp" class="form-text text-muted"
+							>Short description of your task</small
+						>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<button id="btnAdd" disabled class="btn btn-success col m-2">
+							<i class="fas fa-plus-square"></i> Add
+						</button>
+						<button id="btnClear" disabled class="btn btn-danger col m-2">
+							<i class="fas fa-backspace"></i> Reset
+						</button>
+					</div>
+
+					<div class="row">
+						<button id="btnSort" disabled class="btn btn-primary col m-2">
+							<i class="fas fa-sort"></i> Sort
+						</button>
+						<button id="btnDelete" disabled class="btn btn-warning col m-2">
+							<i class="fas fa-trash-alt"></i> Clear
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="row px-4">
+				<ul class="list-group" id="taskList"></ul>
+			</div>
+		</div>
+	</body>
+</html>

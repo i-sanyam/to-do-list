@@ -1,0 +1,17 @@
+#taskList li.done {
+    text-decoration: line-through;
+    color: #999999;
+    background-color: white;
+}
+#taskList li {
+    /* background-color: rgb(255, 227, 104); */
+    color:black;
+    font-size: 14pt;
+}
+#taskList li:hover{
+    /* background-color: lightseagreen; */
+    font-weight: bold;
+    /* color: cornsilk; */
+    font-size: 16pt;
+    box-shadow: 5px 5px 5px lavender;
+}
